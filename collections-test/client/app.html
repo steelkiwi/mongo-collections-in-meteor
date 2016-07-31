@@ -1,0 +1,12 @@
+<body>
+    {{# each programmingLanguages}}
+        {{> programmingLanguage}}
+    {{/ each}}
+</body>
+
+<template name="programmingLanguage">
+    <p>
+        <b>{{name}} {{stars}}</b>
+        <a href="#" class="pl-star">☆</a>
+    </p>
+</template>
